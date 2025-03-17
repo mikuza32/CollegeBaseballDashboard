@@ -55,7 +55,7 @@ node_modules/
 out/
 
 #Python Files
-__pycache__/
+/backend/__pycache__/
 *.pyc 
 *.pyo 
 *.pyd 
@@ -63,7 +63,7 @@ env/
 venv/
 
 #Firebase Credentials and files
-**/baseballdashboard-firebase-adminsdk-fbsvc-22f91b73de.json
+/backend/config/baseballdashboard-firebase-adminsdk-fbsvc-22f91b73de.json
 
 #Environment Files
 .env
