@@ -16,11 +16,11 @@ the best results in those statistical categories.
 - **How is the data stored?**
   *This application uses a Firebase SDK as it is an efficient platform for this type of project, especially since we are only using the free tier services.*
 
-- **RESTful API Development and Design**
+- **RESTful API Development and Design:**
   *We created endpoints using FastAPI that are retrieved from the applications frontend. The APIs use the backends service layer to fulfill the scraping, manipulating, and placing of the data retrieved into the FireStore DB.*
 
-- **Interactive Dashboard**
-  *For the frontend dashboards we used Next.js as the frontend framework, along with Chart.js library to consume the Firestore data and display them accordingly into bar charts and scatter plots. This allows the user to analyze the data accordingly to generate conclusions.
+- **Interactive Dashboard:**
+  *For the frontend dashboards we used Next.js as the frontend framework, along with Chart.js library to consume the Firestore data and display them accordingly into bar charts and scatter plots. This allows the user to analyze the data accordingly to generate conclusions.*
 
-- **Caching on application**
+- **Caching on application:**
   *This application uses in-memory caching to save resources for reads/writes on the free tier Firebase app. This reduces the amount of reads and writes a user uses when using the College Baseball Dashboard application*
